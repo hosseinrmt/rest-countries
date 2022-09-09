@@ -16,9 +16,9 @@ const CountryDetail = () => {
           <span>Back</span>
         </button>
 
-        <div className="flex flex-col lg:flex-row lg:justify-around lg:items-start gap-x-8">
+        <div className="flex flex-col lg:flex-row lg:justify-around lg:items-start">
           <section>
-            <img className="mb-12 w-72 h-40" src={state.flag} />
+            <img className="mb-12 w-72 h-40 shadow-lg" src={state.flag} />
           </section>
 
           <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center">
